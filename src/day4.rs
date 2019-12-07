@@ -1,6 +1,3 @@
-use std::collections::HashMap;
-use std::str::FromStr;
-
 //SOLUTIONS
 
 #[aoc(day4, part1)]
@@ -19,7 +16,7 @@ pub fn part1(_: &str) -> i32 {
 }
 
 #[aoc(day4, part2)]
-pub fn part2(raw_input: &str) -> i32 {
+pub fn part2(_raw_input: &str) -> i32 {
     let mut count = 0;
 
     for n in 254032..(789860 + 1) {
