@@ -1,7 +1,5 @@
 use itertools::Itertools;
 use multimap::MultiMap;
-use std::collections::HashMap;
-use std::io;
 
 #[aoc_generator(day7)]
 pub fn input_generator(input: &str) -> Vec<i32> {
