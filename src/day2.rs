@@ -62,7 +62,7 @@ fn trywith(program: &[usize], noun: usize, verb: usize) -> usize {
 
 #[cfg(test)]
 mod tests {
-    use super::{part1, part2};
+    use super::part1;
 
     #[test]
     fn sample1() {

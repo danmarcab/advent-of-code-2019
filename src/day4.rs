@@ -57,8 +57,3 @@ fn exactly_two_adjacent_same(num: (i32, i32, i32, i32, i32, i32)) -> bool {
         || (num.2 != num.3 && num.3 == num.4 && num.4 != num.5)
         || (num.3 != num.4 && num.4 == num.5)
 }
-
-#[cfg(test)]
-mod tests {
-    use super::{part1, part2};
-}

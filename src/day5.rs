@@ -125,8 +125,3 @@ fn param_value(program: &Vec<i32>, mode: i32, dir: i32) -> i32 {
         unreachable!()
     }
 }
-
-#[cfg(test)]
-mod tests {
-    use super::{part1, part2};
-}

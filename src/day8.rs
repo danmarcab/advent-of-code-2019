@@ -82,8 +82,3 @@ fn print_img(img: &Vec<usize>, width: usize, height: usize) {
         println!("{:?}", formatted_row);
     }
 }
-
-#[cfg(test)]
-mod tests {
-    use super::{part1, part2};
-}
